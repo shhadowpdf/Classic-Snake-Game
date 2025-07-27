@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}.container{
+    height: 100vh;
+    height: 100dvh;
+    width: 100vw;
+    width: 100dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+    flex-direction: column;
+}#score{
+    font-size: 1.5em;
+    color: aliceblue;
+    font-family: "Helvetica";
+    margin-bottom: 2em;
+    display: flex;
+    gap: 3em;
+}.box{
+    background-color: aliceblue;
+}button{
+    all: unset;
+    background-color: #4CAF50;
+    margin-top: 2em;
+    border-radius: 25px;
+    font-size: 1rem;
+    padding: 8px 16px;
+    font-family: "Helvetica";
+    border: none;
+    cursor: pointer; 
+    z-index: 999;
+}.game-over{
+    height: 400px;
+    aspect-ratio: 1/1;
+    font-size: 24px;
+    display: none;
+}.class{
+    font-size: 24px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #212121;
+    font-family: "Helvetica";
+}
