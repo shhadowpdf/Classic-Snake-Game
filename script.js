@@ -100,8 +100,8 @@ function draw() {
 function spawnFood() {
 
   do {
-    food.x = Math.floor(Math.random() * box);
-    food.y = Math.floor(Math.random() * box)
+    food.x = Math.floor(Math.random() * (box-1));
+    food.y = Math.floor(Math.random() * (box - 1))
   } while (snake.some((seg) => seg.x === food.x * box && seg.y === food.y * box))
 
 
